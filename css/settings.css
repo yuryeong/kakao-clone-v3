@@ -28,6 +28,11 @@
     font-size: 14px;
 }
 
+.settings__setting:hover{
+    background-color: #dddddd;
+    cursor: pointer;
+}
+
 .settings__main{
     margin-top: 10px;
     margin-left: 30px;
@@ -72,5 +77,5 @@
 }
 
 .sub-title1{
-    margin-left: -100px;
+    margin-left: -68px;
 }
