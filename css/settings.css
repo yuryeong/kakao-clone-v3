@@ -1,0 +1,76 @@
+.settings-body{
+    margin: auto;
+}
+
+.settings-body .header h1{
+    font-size: 20px;
+}
+
+.settings-body .header{
+    margin: 0px;
+    width: 100%;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.settings-body .settings{
+    display: flex;
+}
+
+.settings__setting{
+    height: 60px;
+    width: 80px;
+    padding-left: 10px;
+    border-right: 1px solid gray;
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+}
+
+.settings__main{
+    margin-top: 10px;
+    margin-left: 30px;
+    width: 380px;
+}
+
+.settings__column{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    height: 60px;
+}
+
+.settings__main-title{
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.settings__sub-title{
+    font-size: 14px;
+    opacity: 0.9;
+}
+
+.settings__sub-box{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.settings__column:nth-child(6){
+    justify-content: flex-start;
+}
+
+.settings__column:nth-child(7){
+    justify-content: flex-start;
+}
+
+.checkicon{
+    margin-right: 10px;
+    font-size: 20px;
+    color: orange;
+}
+
+.sub-title1{
+    margin-left: -100px;
+}
